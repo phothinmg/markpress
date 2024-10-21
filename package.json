@@ -1,0 +1,30 @@
+{
+  "name": "markpress",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "biome check --write src",
+    "build": "tsup"
+  },
+  "type": "module",
+  "keywords": [
+    "Express",
+    "Markdown",
+    "Middleware"
+  ],
+  "author": "Pho Thin Maung",
+  "license": "Apache-2.0",
+  "description": "",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/express": "^5.0.0",
+    "@types/glob": "^8.1.0",
+    "@types/node": "^22.7.7",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "glob": "^11.0.0",
+    "mm-mark": "^0.3.8"
+  }
+}
