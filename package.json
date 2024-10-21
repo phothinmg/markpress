@@ -1,9 +1,13 @@
 {
-  "name": "markpress",
+  "name": "@phothin/markpress",
   "version": "0.1.0",
   "scripts": {
     "check": "biome check --write src",
     "build": "tsup"
+  },
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.js"
   },
   "type": "module",
   "keywords": [
