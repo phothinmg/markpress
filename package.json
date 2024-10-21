@@ -26,5 +26,9 @@
     "express": "^4.21.1",
     "glob": "^11.0.0",
     "mm-mark": "^0.3.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phothinmg/markpress.git"
   }
 }
